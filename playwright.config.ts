@@ -2,11 +2,14 @@ import type { PlaywrightTestConfig } from '@playwright/test';
 import { json } from 'stream/consumers';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/basicinteraction.test.ts"],
+  testMatch: ["tests/alert.test.ts"],
   use:{
     headless: false,
-    screenshot: "only-on-failure",
-    video: "retain-on-failure",
+    screenshot: "on",
+    video: "on",
+    launchOptions: {
+      slowMo:1000
+    }
   },
   retries: 0,
   reporter: [["dot"],["json",{

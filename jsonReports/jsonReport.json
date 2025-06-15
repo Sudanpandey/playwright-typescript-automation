@@ -50,7 +50,7 @@
         "testDir": "/Users/basantkumarpandey/Desktop/Projects/playwright-typescript",
         "testIgnore": [],
         "testMatch": [
-          "tests/basicinteraction.test.ts"
+          "tests/alert.test.ts"
         ],
         "timeout": 30000
       }
@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests/basicinteraction.test.ts",
-      "file": "tests/basicinteraction.test.ts",
+      "title": "tests/alert.test.ts",
+      "file": "tests/alert.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Interact with components",
+          "title": "Handling Alerts",
           "ok": true,
           "tags": [],
           "tests": [
@@ -85,22 +85,16 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1393,
+                  "duration": 1398,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Please enter your Message\n"
-                    },
-                    {
-                      "text": "Before entering Data: \n"
-                    },
-                    {
-                      "text": "After Entering Data:Hii Lewin\n"
+                      "text": "Press a button!\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-15T15:02:09.267Z",
+                  "startTime": "2025-06-15T17:20:37.161Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -108,13 +102,13 @@
               "status": "expected"
             }
           ],
-          "id": "955916e1d65aa80ba13f-85499f9e467ff4e2b9ab",
-          "file": "tests/basicinteraction.test.ts",
-          "line": 3,
+          "id": "a580f849d5424efee28a-7fc4b420101e736d3c8d",
+          "file": "tests/alert.test.ts",
+          "line": 4,
           "column": 5
         },
         {
-          "title": "Sum",
+          "title": "Modal Alert",
           "ok": true,
           "tags": [],
           "tests": [
@@ -129,16 +123,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 793,
+                  "duration": 1877,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "450\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-15T15:02:11.668Z",
+                  "startTime": "2025-06-15T17:20:39.568Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -146,9 +136,43 @@
               "status": "expected"
             }
           ],
-          "id": "955916e1d65aa80ba13f-c6f8e5ab2f5ac213c64d",
-          "file": "tests/basicinteraction.test.ts",
-          "line": 13,
+          "id": "a580f849d5424efee28a-774e7539ad705deca997",
+          "file": "tests/alert.test.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "Dropdown select",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6010,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-15T17:20:41.449Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a580f849d5424efee28a-b8620a4c478cc9bd9d01",
+          "file": "tests/alert.test.ts",
+          "line": 21,
           "column": 5
         }
       ]
@@ -156,9 +180,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-15T15:02:08.990Z",
-    "duration": 3568.15,
-    "expected": 2,
+    "startTime": "2025-06-15T17:20:36.809Z",
+    "duration": 10743.866,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
