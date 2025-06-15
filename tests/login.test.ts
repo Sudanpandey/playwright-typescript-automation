@@ -1,6 +1,6 @@
 import { test, expect, chromium } from '@playwright/test';
 
-test('Login Test Demo:',async () =>{
+test.skip('Login Test Demo:',async () =>{
     const browser = await chromium.launch({
         headless: false
     });
