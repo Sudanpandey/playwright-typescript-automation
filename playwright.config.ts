@@ -2,7 +2,7 @@ import type { PlaywrightTestConfig } from '@playwright/test';
 import { json } from 'stream/consumers';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/alert.test.ts"],
+  testMatch: ["tests/calender.test.ts"],
   use:{
     headless: false,
     screenshot: "on",

@@ -50,7 +50,7 @@
         "testDir": "/Users/basantkumarpandey/Desktop/Projects/playwright-typescript",
         "testIgnore": [],
         "testMatch": [
-          "tests/alert.test.ts"
+          "tests/calender.test.ts"
         ],
         "timeout": 30000
       }
@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests/alert.test.ts",
-      "file": "tests/alert.test.ts",
+      "title": "tests/calender.test.ts",
+      "file": "tests/calender.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Handling Alerts",
+          "title": "Calender using fill function",
           "ok": true,
           "tags": [],
           "tests": [
@@ -85,94 +85,33 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1398,
+                  "duration": 6792,
                   "errors": [],
-                  "stdout": [
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-22T16:16:09.305Z",
+                  "annotations": [],
+                  "attachments": [
                     {
-                      "text": "Press a button!\n"
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/basantkumarpandey/Desktop/Projects/playwright-typescript/test-results/tests-calender-Calender-using-fill-function/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/basantkumarpandey/Desktop/Projects/playwright-typescript/test-results/tests-calender-Calender-using-fill-function/video.webm"
                     }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-15T17:20:37.161Z",
-                  "annotations": [],
-                  "attachments": []
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a580f849d5424efee28a-7fc4b420101e736d3c8d",
-          "file": "tests/alert.test.ts",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "Modal Alert",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1877,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-15T17:20:39.568Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a580f849d5424efee28a-774e7539ad705deca997",
-          "file": "tests/alert.test.ts",
-          "line": 15,
-          "column": 5
-        },
-        {
-          "title": "Dropdown select",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 6010,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-15T17:20:41.449Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "a580f849d5424efee28a-b8620a4c478cc9bd9d01",
-          "file": "tests/alert.test.ts",
-          "line": 21,
+          "id": "8b6b781e32c609f075b7-27a62b1ce7ec0c557f73",
+          "file": "tests/calender.test.ts",
+          "line": 3,
           "column": 5
         }
       ]
@@ -180,9 +119,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-15T17:20:36.809Z",
-    "duration": 10743.866,
-    "expected": 3,
+    "startTime": "2025-06-22T16:16:08.999Z",
+    "duration": 7992.955,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
